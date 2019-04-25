@@ -1,0 +1,9 @@
+Package: com.creaturecoding.flexer
+Name: FLEXer
+Pre-Depends: firmware (>= 8.0)
+Version: 0.1
+Architecture: iphoneos-arm
+Description: invoke (Flipboard) FLEX from statusbar
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Author: CreatureSurvive <support@creaturecoding.com>
+Section: Utilities
