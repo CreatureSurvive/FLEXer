@@ -3,7 +3,10 @@
 // Copyright © 2019 CreatureSurvive (CreatureCoding). All rights reserved.
 //
 
-#import <FLEX/FLEXManager.h>
+@interface FLEXManager : NSObject
++ (instancetype)sharedManager;
+- (void)toggleExplorer;
+@end
 
 @interface FLEXWindow : UIWindow 
 @end
