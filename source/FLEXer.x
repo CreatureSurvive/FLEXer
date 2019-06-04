@@ -6,6 +6,8 @@
 #import "FLEXer.h"
 
 // ===================== FLEXManager ==================== //
+// ===== add toggle gesture support to trigger once ===== //
+// ====================================================== //
 
 %hook FLEXManager
 
@@ -18,6 +20,8 @@
 %end
 
 // ===================== FLEXWindow ===================== //
+// === let FLEX to open on the lockscreen while locked == //
+// ====================================================== //
 
 %hook FLEXWindow
 
@@ -28,6 +32,8 @@
 %end
 
 // ================== UIStatusBarWindow ================= //
+// ====== use the topmost window for the recognizer ===== //
+// ====================================================== //
 
 %hook UIStatusBarWindow
 
