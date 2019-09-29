@@ -21,6 +21,8 @@ include $(THEOS)/makefiles/common.mk
 
 FLEX_PATH = /Volumes/data/Projects/Git/FLEX/Classes/
 
+# all credit for FLEX includes code below goes to NSEXceptional from FLEXing
+# https://github.com/NSExceptional/FLEXing/blob/3e59f13b3d0b4ec7c043a491b64f874ca96689c0/Makefile#L9-L17
 DIRTOIM = $(foreach d,$(1),-I$(d))
 
 FLEX_FILES 		= $(shell find $(FLEX_PATH) -name '*.m') $(shell find $(FLEX_PATH) -name '*.mm')
